@@ -5,6 +5,7 @@ __pycache__/
 
 
 /data_1
+/pipelines
 
 # C extensions
 *.so
