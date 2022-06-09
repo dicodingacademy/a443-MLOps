@@ -1,0 +1,162 @@
+feature {
+  name: "\"carat\""
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "\"clarity\""
+  type: BYTES
+  domain: "\"clarity\""
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "\"color\""
+  type: BYTES
+  domain: "\"color\""
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "\"cut\""
+  type: BYTES
+  domain: "\"cut\""
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "\"depth\""
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "\"price\""
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "\"table\""
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "\"x\""
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "\"y\""
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "\"z\""
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+string_domain {
+  name: "\"clarity\""
+  value: "I1"
+  value: "IF"
+  value: "SI1"
+  value: "SI2"
+  value: "VS1"
+  value: "VS2"
+  value: "VVS1"
+  value: "VVS2"
+}
+string_domain {
+  name: "\"color\""
+  value: "D"
+  value: "E"
+  value: "F"
+  value: "G"
+  value: "H"
+  value: "I"
+  value: "J"
+}
+string_domain {
+  name: "\"cut\""
+  value: "Fair"
+  value: "Good"
+  value: "Ideal"
+  value: "Premium"
+  value: "Very Good"
+}
