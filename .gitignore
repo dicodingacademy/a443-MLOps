@@ -4,8 +4,9 @@ __pycache__/
 *$py.class
 
 
-/data_1
-/pipelines
+notebook_test.ipynb
+/latihan_membuat_ML_pipeline/pipelines
+eksperiment.ipynb
 
 # C extensions
 *.so
