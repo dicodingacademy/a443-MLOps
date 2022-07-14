@@ -12,6 +12,7 @@ def hello_world():
 MODEL_PATH = "fashion-mnist"
 model = tf.keras.models.load_model(MODEL_PATH)
 
+# Make prediction route
 @app.route("/predict", methods=["POST"])
 def predict():
     request_json = request.json
