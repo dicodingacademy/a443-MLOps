@@ -7,6 +7,7 @@ __pycache__/
 notebook_test.ipynb
 /latihan_membuat_ML_pipeline/pipelines
 eksperiment.ipynb
+/latihan_membuat_ML_pipeline/new/pipelines
 
 # C extensions
 *.so
