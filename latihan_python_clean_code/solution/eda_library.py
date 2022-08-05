@@ -1,4 +1,3 @@
-# library doc string
 """
 Author: Dicoding
 Date: 5/8/2022
